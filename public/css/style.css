@@ -1,0 +1,30 @@
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body{
+    font-size: 2rem;
+    font-family: sans-serif;
+}
+
+
+.header{
+    height: 15rem;
+    background: black;
+    display: flex;
+    align-items: center;
+    padding-left: 5rem;
+}
+
+.header__title{
+    color: white;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
